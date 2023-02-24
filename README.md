@@ -62,12 +62,30 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: 
+    - Read console log in browser
+    - Read rails server log
+    - Find NameError
+    - Change Toys to Toy
+
 
 - Update the number of likes for a toy
 
   - How I debugged:
+    - Read console log in browser
+    - Find SyntaxError
+    - Put byebug in update action
+    - Find Unexpected end of JSON input
+    - Permit id in toy_params
+    - render json at the update action
+    
+
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+    - Read console log in browser
+    - Find 404 error
+    - Look at rails server log
+    - Add destroy action to resources in config.routes
+
